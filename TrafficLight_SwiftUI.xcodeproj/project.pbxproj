@@ -11,6 +11,7 @@
 		1F9EB7F92A5EA0E400A6F043 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EB7F82A5EA0E400A6F043 /* ContentView.swift */; };
 		1F9EB7FB2A5EA0E500A6F043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9EB7FA2A5EA0E500A6F043 /* Assets.xcassets */; };
 		1F9EB7FE2A5EA0E500A6F043 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9EB7FD2A5EA0E500A6F043 /* Preview Assets.xcassets */; };
+		1F9EB8052A5EA17900A6F043 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EB8042A5EA17900A6F043 /* ColorCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1F9EB7F82A5EA0E400A6F043 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F9EB7FA2A5EA0E500A6F043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F9EB7FD2A5EA0E500A6F043 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F9EB8042A5EA17900A6F043 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				1F9EB7F62A5EA0E400A6F043 /* TrafficLight_SwiftUIApp.swift */,
+				1F9EB8042A5EA17900A6F043 /* ColorCircleView.swift */,
 				1F9EB7F82A5EA0E400A6F043 /* ContentView.swift */,
 				1F9EB7FA2A5EA0E500A6F043 /* Assets.xcassets */,
 				1F9EB7FC2A5EA0E500A6F043 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9EB8052A5EA17900A6F043 /* ColorCircleView.swift in Sources */,
 				1F9EB7F92A5EA0E400A6F043 /* ContentView.swift in Sources */,
 				1F9EB7F72A5EA0E400A6F043 /* TrafficLight_SwiftUIApp.swift in Sources */,
 			);
