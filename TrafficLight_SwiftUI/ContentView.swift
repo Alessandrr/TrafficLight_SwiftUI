@@ -19,9 +19,9 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            ColorCircleView(color: .red, isActive: activeLight == .red)
-            ColorCircleView(color: .yellow, isActive: activeLight == .yellow)
-            ColorCircleView(color: .green, isActive: activeLight == .green)
+            ColorCircleView(color: .red, opacityValue: activeLight == .red ? 1 : 0.5)
+            ColorCircleView(color: .yellow, opacityValue: activeLight == .yellow ? 1 : 0.5)
+            ColorCircleView(color: .green, opacityValue: activeLight == .green ? 1 : 0.5)
             
             Button(action: nextLight) {
                 Text(isLightStarted ? "NEXT" : "START")

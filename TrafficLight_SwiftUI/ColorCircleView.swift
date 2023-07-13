@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ColorCircleView: View {
     let color: Color
-    var isActive: Bool
+    var opacityValue: Double
     
     var body: some View {
         Circle()
@@ -17,12 +17,12 @@ struct ColorCircleView: View {
             .overlay(Circle().stroke(Color.primary, lineWidth: 5))
             .padding()
             .shadow(color: Color.primary, radius: 10)
-            .opacity(isActive ? 1 : 0.5)
+            .opacity(opacityValue)
     }
 }
 
 struct ColorCircleView_Previews: PreviewProvider {
     static var previews: some View {
-        ColorCircleView(color: .red, isActive: true)
+        ColorCircleView(color: .red, opacityValue: 1)
     }
 }
